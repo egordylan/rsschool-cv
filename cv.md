@@ -1,7 +1,7 @@
 ## **Alena Petrash**
 Junior Front-End Developper
 
-[Linkedin](https://www.linkedin.com/in/alena-petrash-76b6051a1/)\
+[LinkedIn](https://www.linkedin.com/in/alena-petrash-76b6051a1/)\
 [Github](https://github.com/egordylan)\
 [Email](helen.y.petrash@gmail.com)
 
@@ -10,7 +10,7 @@ I love working with smart, ambitious, and kind people.
 I am an excellent team worker, responsible, have good analytical and problem-solving skills. I`m self-motivated and hard-working person.
 I can work in a team and in stressful situations. I received only positive reviews about working with me. I study English in my free time and learn technologies which are new for me. My hobby is reading books, drumming, traveling.
 
-======================================================================================================================================================
+---
 
 ### Hard skills:
 * JavaScript
@@ -23,7 +23,7 @@ I can work in a team and in stressful situations. I received only positive revie
 * Cucumber
 * Mocha + chai
 
-======================================================================================================================================================
+---
 
 ### Code example:
 _Find the last number between 1 and n (inclusive) that survives the elimination process. Start with the first number on the left then remove every other number moving right until you reach the the end, then from the numbers remaining start with the first number on the right and remove every other number moving left, repeat the process alternating between left and right until only one number remains which you return as the "last man standing"._
@@ -45,7 +45,7 @@ function lastManStanding(n){
 }
 ```
 
-======================================================================================================================================================
+---
 
 ### Experience:
 **06/2014 – 08/2021 Republican scientiﬁc-design company "Institute of regional and urban planning"** _Minsk, Belarus_
@@ -70,7 +70,7 @@ Architect
 
 Teacher of special disciplines
 
-======================================================================================================================================================
+---
 
 ### Education:
 * 2022 - now: _Javascript/Front-End. Stage 0(in progress)_ **Rolling Scopes School**
@@ -80,7 +80,7 @@ Teacher of special disciplines
 * 09/2010 - 12/2011: _Master of architecture/ MArch - Urban design_ **Belarusian National Technical University**
 * 09/2005 - 06/2010: _Bachelor of architecture/ BArch - Urban design, architecture_ **Belarusian National Technical University**
 
-======================================================================================================================================================
+---
 
 ### Languages:
 * English - A2
