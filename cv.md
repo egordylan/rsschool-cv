@@ -1,9 +1,9 @@
 ## **Alena Petrash**
 Junior Front-End Developper
 
-[Linkedin] (https://www.linkedin.com/in/alena-petrash-76b6051a1/)\
-[Github] (https://github.com/egordylan)\
-[Email] (helen.y.petrash@gmail.com)
+[Linkedin](https://www.linkedin.com/in/alena-petrash-76b6051a1/)\
+[Github](https://github.com/egordylan)\
+[Email](helen.y.petrash@gmail.com)
 
 ### About me:
 I love working with smart, ambitious, and kind people.
@@ -21,7 +21,25 @@ I can work in a team and in stressful situations. I received only positive revie
 * Cucumber
 * Mocha + chai
 
+### Code example:
+_Find the last number between 1 and n (inclusive) that survives the elimination process. Start with the first number on the left then remove every other number moving right until you reach the the end, then from the numbers remaining start with the first number on the right and remove every other number moving left, repeat the process alternating between left and right until only one number remains which you return as the "last man standing"._
 
+[Codewars] (https://www.codewars.com/kata/567c26df18e9b1083a000049)
+
+```
+function lastManStanding(n){
+  let array = Array.from({length: n}, (val, num) => num + 1);
+  let result = [...array];
+  let len = array.length;
+  while (len !== 1){
+    result = result.filter((elem, index) => index % 2);
+    len = result.length;
+    result.reverse();
+  }
+  console.log(result);
+  return result[0];
+}
+```
 
 ### Experience:
 **06/2014 – 08/2021 Republican scientiﬁc-design company "Institute of regional and urban planning"** _Minsk, Belarus_
@@ -31,15 +49,18 @@ Urban planning specialist/ 1st category architect
 * Technical support of urban planning projects
     
 **02/2014 - 06/2014 Catalogue of Saint Elisabeth Convent** _Minsk, Belarus_
+
 Artist of painting on wood of the 4rth category
 * Painting on wood and ceramics
             
 **08/2013 – 12/2013 Center For The Regeneration Of Historical And Cultural Landscapes And Territories** _Minsk, Belarus_
+
 Architect
 * Collecting data of measurements of exteriors and interiors of buildings
 * Registration of architectural drawings according to measurements
      
 **08/2010 - 08/2012 Branch of Belarusian National Technical University "Minsk state architectural-construction college"** _Minsk, Belarus_
+
 Teacher of special disciplines
 
 ### Education:
