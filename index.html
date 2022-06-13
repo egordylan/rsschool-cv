@@ -1,59 +1,342 @@
- <!DOCTYPE html>
- <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>EGORDYLAN - Front-End Developper</title>
-     <link rel="icon" href="#">
-     <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8"  content="text/html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alena P CV</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body id="body">
-     <h1 class="visual-hide">EGORDYLAN - Front-End Developper CV</h1>
-     <div class="main-wrapper">
-       <section class="about-me container">
-         <div class="about-me__img-container">
-          <img class="about-me__img" src="./images/my_photo_sq.jpg" alt="Personal photo">
-         </div>
-         <h2 class="about-me__name">
-           Hi there, I am Egordylan
-         </h2>
-         <h2 class="title about-me__job">
-           Front-End Developper
-         </h2>
-         <div class="about-me__buttons-wrapper">
-           <a class="btn btn--base pulse" href="mailto:helen.y.petrash@gmail.com">
-             <span>Email me</span>
-           </a>
-         </div>
-         <div class="about-me__description">
-           <p class="description__item">I love working with smart, ambitious, and kind people.</p>
-           <p class="description__item">I am an excellent team worker, responsible, have good analytical and problem-solving skills.</p>
-           <p class="description__item">I`m self-motivated and hard-working person.</p>
-         </div>
-       </section>
+  <header class="header">
+    <div class="header__background-left"></div>
+    <div class="header__background-right"></div>
+    
+    <div class="header_container container">
+      <div class="header_inner-left">
+        <img src="./images/my_photo_sq.jpg" alt="Alena" title="Me ^_^">
       </div>
 
-<footer class="page-footer container">
-        <div class="page-footer__inner">
-          <div class="page-footer__copyright">
-            <p>© 2022 by egordylan</p>
-          </div>
-          <ul class="page-footer__contact-links">
-            <li class="contact-links__item">
-              <a href="https://github.com/egordylan" class="contact-links__link" target="_blank">Github</a>
-            </li>
-            <li class="contact-links__item">
-             <a href="https://www.linkedin.com/in/alena-petrash-76b6051a1/" class="contact-links__link" target="_blank">Linkedin</a>
-           </li>
-           <li class="contact-links__item">
-             <a href="https://www.youtube.com/c/HelenPetrash" class="contact-links__link" target="_blank">YouTube</a>
-           </li>
+      <div class="header_inner-right">
+        <div class="header_content">
+          <h1 class="header__title">Alena Petrash</h1>
+          <h3 class="header__subtitle waviy">
+            <span style="--letter:1">F</span>
+            <span style="--letter:2">r</span>
+            <span style="--letter:3">o</span>
+            <span style="--letter:4">n</span>
+            <span style="--letter:5">t</span>
+            <span style="--letter:6">-</span>
+            <span style="--letter:7">E</span>
+            <span style="--letter:8">n</span>
+            <span style="--letter:9">d</span>
+            <span style="--letter:10">&nbsp;</span>
+            <span style="--letter:11">D</span>
+            <span style="--letter:12">e</span>
+            <span style="--letter:13">v</span>
+            <span style="--letter:14">e</span>
+            <span style="--letter:15">l</span>
+            <span style="--letter:16">o</span>
+            <span style="--letter:17">p</span>
+            <span style="--letter:18">p</span>
+            <span style="--letter:19">e</span>
+            <span style="--letter:20">r</span>
+          </h3>
+        </div>
+
+        <ul class="header__contacts">
+          <li class="header__contact__item">
+            <h4>Location</h4>
+            <address>Minsk, Belarus</address>
+          </li>
+          <li class="header__contact__item">
+            <h4>Skype</h4>
+            <p>ninja_too</p>
+          </li>
+          <li class="header__contact__item">
+            <h4>Email</h4>
+            <p><a href="mailto:helen.y.petrash@gmail.com">Email me</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-wrapper">
+    <section class="about-me">
+      <div class="about-me__background-left"></div>
+      <div class="about-me__background-right"></div>
+      <div class="about-me__container container">
+        <div class="about-me__inner-left">
+          <h2 class="about-me__title"><b>About me</b></h2>
+          <h3 class="about-me__subtitle subtitle"><b>Hello there, I am Alena</b></h3>
+        </div>
+        <div class="about-me__inner-rigth description">
+          <p class="description">
+            I love working with smart, ambitious, and kind people.
+            I am an excellent team worker, responsible, have good analytical and problem-solving skills.
+            I`m self-motivated and hard-working person.
+            I study English in my free time and learn technologies which are new for me.
+            My hobby is reading books, drumming, traveling.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="about-me__background-left"></div>
+      <div class="about-me__background-right"></div>
+
+      <div class="skills__container container">
+        <div class="skills__inner-left">
+          <h2 class="skills__title">Hard skills</h2>
+        </div>
+        <div class="skills__inner-right">
+          <ul class="skills__list">
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">Python 3</li>
+            <li class="skills__item">Base knowlege of MySQL</li>
+            <li class="skills__item">BDD/TDD</li>
+            <li class="skills__item">HTML/CSS</li>
+            <li class="skills__item">Git</li>
+            <li class="skills__item">WebdriverIO</li>
+            <li class="skills__item">Cucumber</li>
+            <li class="skills__item">Mocha+Chai</li>
           </ul>
         </div>
-</footer>
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="experience__background-left"></div>
+      <div class="experience__background-right"></div>
+      <div class="experience_container container">
+        <div class="experience__inner-left">
+          <h2 class="experience__title">Experience</h2>
+          <h3 class="experience__subtitle subtitle">Where I worked</h3>
+        </div>
+        <div class="experience__inner-right">
+          <ul class="experience__list">
+            <li class="experience__job">
+              <p class="experience__year">06/2014 – 08/2021</p>
+              <p class="experience__company">
+                Republican scientiﬁc-design company "Institute of regional and urban planning"
+              </p>
+              <p class="experience__location"><em>Minsk, Belarus</em></p>
+              <h3 class="experience__title title">
+                Urban planning specialist/ 1st category architect
+              </h3>
+              <ul class="experience__responsibilities">
+                <li class="experience__responsibility">Collection of the initial data for the development of urban planning projects</li>
+                <li class="experience__responsibility">Urban planning design (general and detailed plans)</li>
+                <li class="experience__responsibility">Technical support of urban planning projects</li>
+              </ul>
+            </li>
+  
+            <li class="experience__job">
+              <p class="experience__year">02/2014 - 06/2014</p>
+              <p class="experience__company">Catalogue of Saint Elisabeth Convent</p>
+              <p class="experience__location"><em>Minsk, Belarus</em></p>
+              <h3 class="experience__title title">
+                Artist of painting on wood of the 4rth category
+              </h3>
+              <ul class="experience__responsibilities">
+                <li class="experience__responsibility">Painting on wood and ceramics</li>
+              </ul>
+            </li>
+  
+            <li class="experience__job">
+              <p class="experience__year">08/2013 – 12/2013</p>
+              <p class="experience__company">
+                Center For The Regeneration Of Historical And Cultural Landscapes And Territories
+              </p>
+              <p class="experience__location"><em>Minsk, Belarus</em></p>
+              <h3 class="experience__title title">Architect</h3>
+              <ul class="experience__responsibilities">
+                <li class="experience__responsibility">Collecting data of measurements of exteriors and interiors of buildings</li>
+                <li class="experience__responsibility">Registration of architectural drawings according to measurements</li>
+              </ul>
+            </li>
+  
+            <li class="experience__job">
+              <p class="experience__year">08/2010 - 08/2012</p>
+              <p class="experience__company">
+                Branch of Belarusian National Technical University "Minsk state architectural-construction college"
+              </p>
+              <p class="experience__location"><em>Minsk, Belarus</em></p>
+              <h3 class="experience__title title">Teacher of special disciplines</h3>
+              <ul class="experience__responsibilities">
+                <li class="experience__responsibility">Reading lectures (architectural design, urban planning etc.)</li>
+                <li class="experience__responsibility">Conducting practical classes in architectural disciplines</li>
+                <li class="experience__responsibility">Conducting the graduation project</li>
+              </ul>
+            </li>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="languages">
+      <div class="languages__background-left"></div>
+      <div class="languages__background-right"></div>
+      <div class="languages_container container">
+        <div class="languages__inner-left">
+          <h2 class="languages__title">Languages</h2>
+        </div>
+        <div class="languages__inner-right container">
+          <table>
+            <dl class="languages__list">
+              <dt class="languages__title">English</dt>
+              <dd class="languages__level">A2</dd>
+              <dt class="languages__title">Russian</dt>
+              <dd class="languages__level">Native</dd>
+              <dt class="languages__title">Belarussian</dt>
+              <dd class="languages__level">Native</dd>
+              <dt class="languages__title">Polish</dt>
+              <dd class="languages__level">Start learning...</dd>
+            </dl>
+          </table> 
+        </div>
+      </div>
+    </section>
+
+    <section class="education-certificates">
+      <div class="education-certificates__background-left"></div>
+      <div class="education-certificates__background-right"></div>
+      <div class="education-certificates_container container">
+        <div class="education-certificates__inner-left">
+          <h2 class="education__title">Education, certificates</h2>
+        </div>
+        <div class="education-certificates__inner-right">
+  
+          <ul class="education__list">
+            <li class="education__item">
+              <p class="education__year">06/2022 - now</p>
+              <p class="education__status">In progress</p>
+              <h4 class="education__degree">JS / FRONT-END. STAGE 0</h4>
+              <p class="education__company">
+                <a href="https://rs.school/js/"><span data-linktitle="RSschool" aria-hidden="true"></span>RSschool</a>
+              </p>
+            </li>
+  
+            <li class="education__item">
+              <p class="education__year">02/2022 - 04/2022</p>
+              <p class="education__status">Certificate</p>
+              <h4 class="education__degree">JavaScript Automation QA training for Beginners</h4>
+              <p class="education__company">
+                <a href="https://www.exadel.com"><span data-linktitle="Exadel" aria-hidden="true"></span>Exadel</a>
+              </p>
+            </li>
+  
+            <li class="education__item">
+              <p class="education__year">2021</p>
+              <p class="education__status">
+                <a download="" href="https://stepik.org/cert/1080114">Certificate</a>
+              </p>
+              <h4 class="education__degree">Generation Python: course for beginners</h4>
+              <p class="education__company">
+                <a href="https://www.stepik.org"><span data-linktitle="Stepik" aria-hidden="true"></span>Stepik</a>
+              </p>
+            </li>
+            <li class="education__item">
+              <p class="education__year">2021</p>
+              <p class="education__status">
+                <a download="" href="ude.my/UC-1bb5577f-b95f-42f9-b6bd-7af93c0f3907">Certificate</a>
+              </p>
+              <h4 class="education__degree">Python Complete Course For Python Begginers</h4>
+              <p class="education__company">
+                <a href="https://www.udemy.com"><span data-linktitle="Udemy" aria-hidden="true"></span>Udemy</a>
+              </p>
+            </li>
+  
+            <li class="education__item">
+              <p class="education__year">09/2010 - 12/2011</p>
+              <p class="education__status">Master of architecture/ MArch - Urban design</p>
+              <h4 class="education__degree">Architecture</h4>
+              <p class="education__company">
+                <a href="https://bntu.by/">Belarusian National Technical University</a>
+              </p>
+            </li>
+  
+            <li class="education__item">
+              <p class="education__year">09/2005 - 06/2010</p>
+              <p class="education__status">Bachelor of architecture/ BArch - Urban design, architecture</p>
+              <h4 class="education__degree">Architecture</h4>
+              <p class="education__company">
+                <a href="https://bntu.by/">Belarusian National Technical University</a>
+              </p>
+            </li>
+           </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="code-example">
+      <div class="code-example__background-left"></div>
+      <div class="code-example__background-right"></div>
+      <div class="code-example_container container">
+        <div class="code-example__inner-left">
+          <h2 class="code-example__title">Code example</h2>
+          <h3 class="code-example__subtitle subtitle">From random Codewars task</h3>
+        </div>
+        <div class="code-example__inner-right container">
+          <a href="https://www.codewars.com/kata/567c26df18e9b1083a000049">Codewars</a>
+          <p class="subtitle">
+            <i>
+              Find the last number between 1 and n (inclusive) that survives the elimination process.
+              Start with the first number on the left then remove every other number moving right until 
+              you reach the the end, then from the numbers remaining start with the first number on the 
+              right and remove every other number moving left, repeat the process alternating between left 
+              and right until only one number remains which you return as the "last man standing".
+            </i>
+          </p>
+          <pre>
+            <code>
+              function lastManStanding(n){
+                let array = Array.from({length: n}, (val, num) => num + 1);
+                let result = [...array];
+                let len = array.length;
+                while (len !== 1){
+                    result = result.filter((elem, index) => index % 2);
+                    len = result.length;
+                    result.reverse();
+                }
+                console.log(result);
+                return result[0];
+              }
+            </code>
+          </pre>
+        </div>
+      </div>
+    </section>
+
+  </main>
+     
+  <footer class="page-footer">
+    <div class="page-footer__container container">
+      <div class="page-footer__inner">
+        <h6>Alena Petrash 2022 ©</h6>
+      </div>
+      <ul class="page-footer__contact-links">
+        <li class="contact-links__item">
+           <a href="https://github.com/egordylan" class="contact-links__link" target="_blank">Github</a>
+        </li>
+        <li class="contact-links__item">
+          <a href="https://www.linkedin.com/in/alena-petrash-76b6051a1/" class="contact-links__link" target="_blank">Linkedin</a>
+        </li>
+        <li class="contact-links__item">
+          <a href="https://www.youtube.com/c/HelenPetrash" class="contact-links__link" target="_blank">YouTube</a>
+        </li>
+        <li class="contact-links__item">
+          <a href="https://rs.school/js/" class="contact-links__link" target="_blank">
+            <img src="./images/rs_school_js.svg" alt="RSschool" width="73" height="26">
+          </a>
+        </li>
+      </ul>     
+    </div>
+  </footer>
 
 </body>
 
- </html>
+</html>
