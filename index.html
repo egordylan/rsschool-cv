@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alena P CV</title>
   <link rel="stylesheet" href="./css/style.css">
+  <script src="./script/script.js"></script>
 </head>
 
 <body id="body">
   <header class="header">
-    <div class="header__background-left"></div>
-    <div class="header__background-right"></div>
+    <div class="header__background"></div>
     
     <div class="header_container container">
       <div class="header_inner-left">
@@ -20,7 +20,7 @@
 
       <div class="header_inner-right">
         <div class="header_content">
-          <h1 class="header__title">Alena Petrash</h1>
+          <h1 class="header__title"><span>Alena Petrash</span></h1>
           <h3 class="header__subtitle waviy">
             <span style="--letter:1">F</span>
             <span style="--letter:2">r</span>
@@ -45,7 +45,16 @@
           </h3>
         </div>
 
-        <ul class="header__contacts">
+        <nav class="header_navigation">
+          <a href="#about-me-info">About</a>
+          <a href="#skills-info">Hard skills</a>
+          <a href="#experience-info">Experience</a>
+          <a href="#languages-info">Languages</a>
+          <a href="#education-info">Education</a>
+          <a href="#code">Code example</a>
+        </nav>
+
+        <ul class="header__contacts-info">
           <li class="header__contact__item">
             <h4>Location</h4>
             <address>Minsk, Belarus</address>
@@ -64,35 +73,33 @@
   </header>
 
   <main class="main-wrapper">
-    <section class="about-me">
-      <div class="about-me__background-left"></div>
-      <div class="about-me__background-right"></div>
-      <div class="about-me__container container">
-        <div class="about-me__inner-left">
-          <h2 class="about-me__title"><b>About me</b></h2>
-          <h3 class="about-me__subtitle subtitle"><b>Hello there, I am Alena</b></h3>
+    <section id="about-me-info" class="about-me">
+      <div class="about-me__background"></div>
+
+      <div class="about-me_container container">
+        <div class="about-me_inner-left">
+          <h2 class="about-me__title">About me</h2>
         </div>
-        <div class="about-me__inner-rigth description">
+        <div class="about-me_inner-rigth description">
+          <h3 class="about-me__subtitle subtitle">Hello there, I am Alena</h3>
           <p class="description">
-            I love working with smart, ambitious, and kind people.
-            I am an excellent team worker, responsible, have good analytical and problem-solving skills.
-            I`m self-motivated and hard-working person.
+            I love working with smart, ambitious, and kind people. 
+            I am an excellent team worker, responsible, have good analytical and problem-solving <br>
+            skills. I`m self-motivated and hard-working person.
             I study English in my free time and learn technologies which are new for me.
-            My hobby is reading books, drumming, traveling.
+            My hobby is <br>reading books, drumming, traveling.
           </p>
         </div>
       </div>
     </section>
 
-    <section class="skills">
-      <div class="about-me__background-left"></div>
-      <div class="about-me__background-right"></div>
-
-      <div class="skills__container container">
-        <div class="skills__inner-left">
+    <section id="skills-info" class="skills">
+      <div class="skills__background"></div>
+      <div class="skills_container container">
+        <div class="skills_inner-left">
           <h2 class="skills__title">Hard skills</h2>
         </div>
-        <div class="skills__inner-right">
+        <div class="skills_inner-right">
           <ul class="skills__list">
             <li class="skills__item">JavaScript</li>
             <li class="skills__item">Python 3</li>
@@ -108,15 +115,14 @@
       </div>
     </section>
 
-    <section class="experience">
-      <div class="experience__background-left"></div>
-      <div class="experience__background-right"></div>
+    <section id="experience-info" class="experience">
+      <div class="experience__background"></div>
       <div class="experience_container container">
-        <div class="experience__inner-left">
+        <div class="experience_inner-left">
           <h2 class="experience__title">Experience</h2>
           <h3 class="experience__subtitle subtitle">Where I worked</h3>
         </div>
-        <div class="experience__inner-right">
+        <div class="experience_inner-right">
           <ul class="experience__list">
             <li class="experience__job">
               <p class="experience__year">06/2014 – 08/2021</p>
@@ -124,7 +130,7 @@
                 Republican scientiﬁc-design company "Institute of regional and urban planning"
               </p>
               <p class="experience__location"><em>Minsk, Belarus</em></p>
-              <h3 class="experience__title title">
+              <h3 class="experience__title-item title">
                 Urban planning specialist/ 1st category architect
               </h3>
               <ul class="experience__responsibilities">
@@ -138,7 +144,7 @@
               <p class="experience__year">02/2014 - 06/2014</p>
               <p class="experience__company">Catalogue of Saint Elisabeth Convent</p>
               <p class="experience__location"><em>Minsk, Belarus</em></p>
-              <h3 class="experience__title title">
+              <h3 class="experience__title-item title">
                 Artist of painting on wood of the 4rth category
               </h3>
               <ul class="experience__responsibilities">
@@ -152,7 +158,7 @@
                 Center For The Regeneration Of Historical And Cultural Landscapes And Territories
               </p>
               <p class="experience__location"><em>Minsk, Belarus</em></p>
-              <h3 class="experience__title title">Architect</h3>
+              <h3 class="experience__title-item title">Architect</h3>
               <ul class="experience__responsibilities">
                 <li class="experience__responsibility">Collecting data of measurements of exteriors and interiors of buildings</li>
                 <li class="experience__responsibility">Registration of architectural drawings according to measurements</li>
@@ -165,7 +171,7 @@
                 Branch of Belarusian National Technical University "Minsk state architectural-construction college"
               </p>
               <p class="experience__location"><em>Minsk, Belarus</em></p>
-              <h3 class="experience__title title">Teacher of special disciplines</h3>
+              <h3 class="experience__title-item title">Teacher of special disciplines</h3>
               <ul class="experience__responsibilities">
                 <li class="experience__responsibility">Reading lectures (architectural design, urban planning etc.)</li>
                 <li class="experience__responsibility">Conducting practical classes in architectural disciplines</li>
@@ -177,36 +183,35 @@
       </div>
     </section>
 
-    <section class="languages">
-      <div class="languages__background-left"></div>
-      <div class="languages__background-right"></div>
+    <section id="languages-info" class="languages">
+      <div class="languages__background"></div>
       <div class="languages_container container">
-        <div class="languages__inner-left">
+        <div class="languages_inner-left">
           <h2 class="languages__title">Languages</h2>
         </div>
-        <div class="languages__inner-right container">
+        <div class="languages_inner-right container">
             <dl class="languages__list">
-              <dt class="languages__title">English</dt>
+              <dt class="languages__subtitle">English</dt>
               <dd class="languages__level">A2</dd>
-              <dt class="languages__title">Russian</dt>
+              <dt class="languages__subtitle">Russian</dt>
               <dd class="languages__level">Native</dd>
-              <dt class="languages__title">Belarussian</dt>
+              <dt class="languages__subtitle">Belarussian</dt>
               <dd class="languages__level">Native</dd>
-              <dt class="languages__title">Polish</dt>
+              <dt class="languages__subtitle">Polish</dt>
               <dd class="languages__level">Start learning...</dd>
             </dl>
         </div>
       </div>
     </section>
 
-    <section class="education-certificates">
-      <div class="education-certificates__background-left"></div>
-      <div class="education-certificates__background-right"></div>
+    <section id="education-info" class="education-certificates">
+      <div class="education-certificates__background"></div>
+
       <div class="education-certificates_container container">
-        <div class="education-certificates__inner-left">
-          <h2 class="education__title">Education, certificates</h2>
+        <div class="education-certificates_inner-left">
+          <h2 class="education__title">Education and certificates</h2>
         </div>
-        <div class="education-certificates__inner-right">
+        <div class="education-certificates_inner-right">
   
           <ul class="education__list">
             <li class="education__item">
@@ -270,15 +275,15 @@
       </div>
     </section>
 
-    <section class="code-example">
-      <div class="code-example__background-left"></div>
-      <div class="code-example__background-right"></div>
+    <section id="code" class="code-example">
+      <div class="code-example__background"></div>
+
       <div class="code-example_container container">
-        <div class="code-example__inner-left">
+        <div class="code-example_inner-left">
           <h2 class="code-example__title">Code example</h2>
           <h3 class="code-example__subtitle subtitle">From random Codewars task</h3>
         </div>
-        <div class="code-example__inner-right container">
+        <div class="code-example_inner-right">
           <a href="https://www.codewars.com/kata/567c26df18e9b1083a000049">Codewars</a>
           <p class="subtitle">
             <i>
@@ -310,11 +315,14 @@
     </section>
 
   </main>
-     
+  
+  <button id="scroller" onclick="topScroll()" title="Go to the Top" class="btn btn-top-scroller pulse" type="button" style="display:block;">Go Top</button>
+
   <footer class="page-footer">
+    <div class="page-footer__background"></div>
     <div class="page-footer__container container">
       <div class="page-footer__inner">
-        <h6>Alena Petrash 2022 ©</h6>
+        <h6>© 2022</h6>
       </div>
       <ul class="page-footer__contact-links">
         <li class="contact-links__item">
